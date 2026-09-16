@@ -28,12 +28,12 @@ function App() {
     <div className="App">
       변경~!!
       <Greeting />
-      <Greeting />
+      {/* <Greeting /> */}
       {/* 미션: Card컴포넌트 만들고, 이 자리에서 호출 */}
+      {/* <Card />
       <Card />
       <Card />
-      <Card />
-      <Card />
+      <Card /> */}
     </div>
   );
 }
