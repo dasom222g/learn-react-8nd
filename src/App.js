@@ -1,4 +1,6 @@
-import Greeting from "./Greeting";
+import Card from "./components/Card";
+import Greeting from "./components/Greeting";
+
 
 function App() {
   // logic
@@ -28,6 +30,10 @@ function App() {
       <Greeting />
       <Greeting />
       {/* 미션: Card컴포넌트 만들고, 이 자리에서 호출 */}
+      <Card />
+      <Card />
+      <Card />
+      <Card />
     </div>
   );
 }
